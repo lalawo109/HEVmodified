@@ -1,0 +1,102 @@
+%implements "chartSource" "C"
+%function ChartConfig(block, system) void
+  %createrecord chartConfiguration { ...
+          executeAtInitialization  0 ...
+  }
+  %return chartConfiguration
+%endfunction
+%function ChartDataMap(block, system) void
+  %createrecord ChartDataElements {\
+    NumChartData   12 \
+    ChartDataDefaults {\
+      RecordType   "ChartData"\
+      Dimensions   []\
+      IsTestPoint  0\
+    }\
+    ChartData {\
+      Name         "RichCount"\
+      Description  "EmlPersistent"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "D:\Program Files\MATLAB\R2021b\toolbox\autoblks\autoblksutilities\autoblksclfuelcontrol.p:-1--2"\
+    }\
+    ChartData {\
+      Name         "RichCount_not_empty"\
+      Description  "EmlPersistentSentinel"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "D:\Program Files\MATLAB\R2021b\toolbox\autoblks\autoblksutilities\autoblksclfuelcontrol.p:-1--2"\
+    }\
+    ChartData {\
+      Name         "LeanCount"\
+      Description  "EmlPersistent"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "D:\Program Files\MATLAB\R2021b\toolbox\autoblks\autoblksutilities\autoblksclfuelcontrol.p:-1--2"\
+    }\
+    ChartData {\
+      Name         "DitherCount"\
+      Description  "EmlPersistent"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "D:\Program Files\MATLAB\R2021b\toolbox\autoblks\autoblksutilities\autoblksclfuelcontrol.p:-1--2"\
+    }\
+    ChartData {\
+      Name         "O2VoltLearnTimeSen"\
+      Description  "EmlPersistent"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "D:\Program Files\MATLAB\R2021b\toolbox\autoblks\autoblksutilities\autoblksclfuelcontrol.p:-1--2"\
+    }\
+    ChartData {\
+      Name         "O2OfsVoltSen"\
+      Description  "EmlPersistent"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "D:\Program Files\MATLAB\R2021b\toolbox\autoblks\autoblksutilities\autoblksclfuelcontrol.p:-1--2"\
+    }\
+    ChartData {\
+      Name         "O2StoichVoltSen"\
+      Description  "EmlPersistent"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "D:\Program Files\MATLAB\R2021b\toolbox\autoblks\autoblksutilities\autoblksclfuelcontrol.p:-1--2"\
+    }\
+    ChartData {\
+      Name         "O2MinVoltSen"\
+      Description  "EmlPersistent"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "D:\Program Files\MATLAB\R2021b\toolbox\autoblks\autoblksutilities\autoblksclfuelcontrol.p:-1--2"\
+    }\
+    ChartData {\
+      Name         "O2MaxVoltSen"\
+      Description  "EmlPersistent"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "D:\Program Files\MATLAB\R2021b\toolbox\autoblks\autoblksutilities\autoblksclfuelcontrol.p:-1--2"\
+    }\
+    ChartData {\
+      Name         "O2ReadySen"\
+      Description  "EmlPersistent"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "D:\Program Files\MATLAB\R2021b\toolbox\autoblks\autoblksutilities\autoblksclfuelcontrol.p:-1--2"\
+    }\
+    ChartData {\
+      Name         "O2VoltLastSen"\
+      Description  "EmlPersistent"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "D:\Program Files\MATLAB\R2021b\toolbox\autoblks\autoblksutilities\autoblksclfuelcontrol.p:-1--2"\
+    }\
+    ChartData {\
+      Name         "ClsdLpFuelIntgLast"\
+      Description  "EmlPersistent"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "D:\Program Files\MATLAB\R2021b\toolbox\autoblks\autoblksutilities\autoblksclfuelcontrol.p:-1--2"\
+    }\
+  }
+  %return ChartDataElements
+%endfunction

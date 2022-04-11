@@ -1,0 +1,947 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MF0 version="1.1" packageUris="http://schema.mathworks.com/mf0/ci/19700101 http://schema.mathworks.com/mf0/sl_modelref_info/R2021b http://schema.mathworks.com/mf0/slexec_mm_sto/R2021b_202103041117">
+  <ModelRefInfoRepo.ModelRefInfoRoot type="ModelRefInfoRepo.ModelRefInfoRoot" uuid="294beb5e-55b5-4237-8b64-c61042f07c82">
+    <childModelRefInfo type="ModelRefInfoRepo.ChildModelRefInfo" uuid="64fdedae-b61a-458e-9a6a-f72ab2927a4c">
+      <hasAccelReference>true</hasAccelReference>
+      <isSingleInstance>true</isSingleInstance>
+      <modelName>BMS_Out</modelName>
+      <modelPath>BMS_Software:BMS_Out</modelPath>
+    </childModelRefInfo>
+    <childModelRefInfo type="ModelRefInfoRepo.ChildModelRefInfo" uuid="42ae2a36-867c-43d7-9b6f-a0af2043d5e2">
+      <isSingleInstance>true</isSingleInstance>
+      <modelName>BMS_Software</modelName>
+      <modelPath>BMS_Software</modelPath>
+    </childModelRefInfo>
+    <childModelRefInfo type="ModelRefInfoRepo.ChildModelRefInfo" uuid="c3d57336-96e8-45ba-84cf-3cd7d0484b83">
+      <hasAccelReference>true</hasAccelReference>
+      <isSingleInstance>true</isSingleInstance>
+      <modelName>Balancing_Logic</modelName>
+      <modelPath>BMS_Software:Balancing_Logic</modelPath>
+    </childModelRefInfo>
+    <childModelRefInfo type="ModelRefInfoRepo.ChildModelRefInfo" uuid="31926402-1f67-4431-a398-380a3ceffe0e">
+      <hasAccelReference>true</hasAccelReference>
+      <isSingleInstance>true</isSingleInstance>
+      <modelName>CurrPowerLimCalc</modelName>
+      <modelPath>BMS_Software:CurrPowerLimCalc</modelPath>
+    </childModelRefInfo>
+    <childModelRefInfo type="ModelRefInfoRepo.ChildModelRefInfo" uuid="2a760d68-63f1-4634-a443-468e167c24cb">
+      <hasAccelReference>true</hasAccelReference>
+      <isSingleInstance>true</isSingleInstance>
+      <modelName>SOC_Estimation</modelName>
+      <modelPath>BMS_Software:SOC_Estimation</modelPath>
+    </childModelRefInfo>
+    <childModelRefInfo type="ModelRefInfoRepo.ChildModelRefInfo" uuid="905cff64-cd8e-42ee-bfdd-69cef05c050f">
+      <hasAccelReference>true</hasAccelReference>
+      <isSingleInstance>true</isSingleInstance>
+      <modelName>State_Machine</modelName>
+      <modelPath>BMS_Software:State_Machine</modelPath>
+    </childModelRefInfo>
+    <compDerivCacheNeedsReset>false</compDerivCacheNeedsReset>
+    <compToGrInputPortMaps type="ModelRefInfoRepo.GrCompIOPortMaps" uuid="e14c12e1-338f-4d0d-85c9-db82f09885c8">
+      <grAndCompPorts>0</grAndCompPorts>
+      <grAndCompPorts>0</grAndCompPorts>
+    </compToGrInputPortMaps>
+    <compToGrInputPortMaps type="ModelRefInfoRepo.GrCompIOPortMaps" uuid="d6ee82d4-70ac-4816-89b4-92d8f2cef1ac">
+      <grAndCompPorts>1</grAndCompPorts>
+      <grAndCompPorts>1</grAndCompPorts>
+    </compToGrInputPortMaps>
+    <compToGrOutputPortMaps type="ModelRefInfoRepo.GrCompIOPortMaps" uuid="2d772dce-d1e9-49f7-91ce-59f4ee3ae3ba">
+      <grAndCompPorts>0</grAndCompPorts>
+      <grAndCompPorts>0</grAndCompPorts>
+    </compToGrOutputPortMaps>
+    <compToGrOutputPortMaps type="ModelRefInfoRepo.GrCompIOPortMaps" uuid="f9014bef-333f-4a82-93dd-4f17f981c7f6">
+      <grAndCompPorts>1</grAndCompPorts>
+      <grAndCompPorts>0</grAndCompPorts>
+    </compToGrOutputPortMaps>
+    <compToGrOutputPortMaps type="ModelRefInfoRepo.GrCompIOPortMaps" uuid="5ead9add-6ae9-44a9-aa8d-b14e5d7f0963">
+      <grAndCompPorts>2</grAndCompPorts>
+      <grAndCompPorts>0</grAndCompPorts>
+    </compToGrOutputPortMaps>
+    <compToGrOutputPortMaps type="ModelRefInfoRepo.GrCompIOPortMaps" uuid="8b09b8db-2f0c-455a-a5a3-85f111aaf89b">
+      <grAndCompPorts>3</grAndCompPorts>
+      <grAndCompPorts>0</grAndCompPorts>
+    </compToGrOutputPortMaps>
+    <compToGrOutputPortMaps type="ModelRefInfoRepo.GrCompIOPortMaps" uuid="c3966e03-3645-4a96-b604-7ac33feb0b75">
+      <grAndCompPorts>4</grAndCompPorts>
+      <grAndCompPorts>0</grAndCompPorts>
+    </compToGrOutputPortMaps>
+    <compToGrOutputPortMaps type="ModelRefInfoRepo.GrCompIOPortMaps" uuid="106f69f2-ebfd-406a-9bf3-b7f6ff396809">
+      <grAndCompPorts>5</grAndCompPorts>
+      <grAndCompPorts>0</grAndCompPorts>
+    </compToGrOutputPortMaps>
+    <compToGrOutputPortMaps type="ModelRefInfoRepo.GrCompIOPortMaps" uuid="468d8289-5680-4626-b7d5-b4a861f89e2a">
+      <grAndCompPorts>6</grAndCompPorts>
+      <grAndCompPorts>0</grAndCompPorts>
+    </compToGrOutputPortMaps>
+    <compToGrOutputPortMaps type="ModelRefInfoRepo.GrCompIOPortMaps" uuid="8a954f40-d0d8-41ef-a517-ca3014759d66">
+      <grAndCompPorts>7</grAndCompPorts>
+      <grAndCompPorts>0</grAndCompPorts>
+    </compToGrOutputPortMaps>
+    <compToGrOutputPortMaps type="ModelRefInfoRepo.GrCompIOPortMaps" uuid="b12e9b51-925b-46ea-9116-7c20080a6fb1">
+      <grAndCompPorts>8</grAndCompPorts>
+      <grAndCompPorts>0</grAndCompPorts>
+    </compToGrOutputPortMaps>
+    <compToGrOutputPortMaps type="ModelRefInfoRepo.GrCompIOPortMaps" uuid="7a6f270a-664f-48e0-ab37-8dce0a8260d6">
+      <grAndCompPorts>9</grAndCompPorts>
+      <grAndCompPorts>0</grAndCompPorts>
+    </compToGrOutputPortMaps>
+    <compToGrOutputPortMaps type="ModelRefInfoRepo.GrCompIOPortMaps" uuid="edffc999-d0a3-47d0-b783-0a3a88bba80b">
+      <grAndCompPorts>10</grAndCompPorts>
+      <grAndCompPorts>0</grAndCompPorts>
+    </compToGrOutputPortMaps>
+    <compToGrOutputPortMaps type="ModelRefInfoRepo.GrCompIOPortMaps" uuid="4be54cf3-d781-4866-994a-26b51aeb0ec3">
+      <grAndCompPorts>11</grAndCompPorts>
+      <grAndCompPorts>0</grAndCompPorts>
+    </compToGrOutputPortMaps>
+    <compToGrOutputPortMaps type="ModelRefInfoRepo.GrCompIOPortMaps" uuid="120eebdf-65fd-4461-91e7-13c07eeeae16">
+      <grAndCompPorts>12</grAndCompPorts>
+      <grAndCompPorts>1</grAndCompPorts>
+    </compToGrOutputPortMaps>
+    <compZcCacheNeedsReset>false</compZcCacheNeedsReset>
+    <dataDictionary>BMS_Software_DD.sldd</dataDictionary>
+    <dataDictionarySet>BMS_Software_DD.sldd</dataDictionarySet>
+    <dataDictionarySet>DD_BMS_Out.sldd</dataDictionarySet>
+    <dataDictionarySet>DD_Balancing_Logic.sldd</dataDictionarySet>
+    <dataDictionarySet>DD_CurrPowerLimCalc.sldd</dataDictionarySet>
+    <dataDictionarySet>DD_State_Machine.sldd</dataDictionarySet>
+    <dataDictionarySetForDataTypeCheck>BMS_Software_DD.sldd</dataDictionarySetForDataTypeCheck>
+    <dataTransferInfos>AAFJTQAAAAAOAAAAOAAAAAYAAAAIAAAAAgAAAAAAAAAFAAAACAAAAAAAAAABAAAAAQAAAAAAAAAFAAQAAQAAAAEAAAAAAAAA</dataTransferInfos>
+    <defaultsCMapping>{&quot;Inports&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;Outports&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;ParameterArguments&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;LocalParameters&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;GlobalParameters&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;InternalData&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;SharedLocalDataStores&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;GlobalDataStores&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;Constants&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;DataTransfers&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;ModelData&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;InitializeTerminate&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;Execution&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;SharedUtility&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;}</defaultsCMapping>
+    <fundamentalSampleTimePeriod>.1</fundamentalSampleTimePeriod>
+    <globalVariables>#BMS_Cmd#BMS_Software_DD.sldd#</globalVariables>
+    <globalVariables>#BMS_Cmd#DD_BMS_Out.sldd#</globalVariables>
+    <globalVariables>#BMS_Info#BMS_Software_DD.sldd#</globalVariables>
+    <globalVariables>#BMS_Info#DD_BMS_Out.sldd#</globalVariables>
+    <globalVariables>#BattSocInit#BMS_Software_DD.sldd#</globalVariables>
+    <globalVariables>#Contactors_Cmd#BMS_Software_DD.sldd#</globalVariables>
+    <globalVariables>#Contactors_Cmd#DD_BMS_Out.sldd#</globalVariables>
+    <globalVariables>#Contactors_Cmd#DD_State_Machine.sldd#</globalVariables>
+    <globalVariables>#CurrentLimits#BMS_Software_DD.sldd#</globalVariables>
+    <globalVariables>#CurrentLimits#DD_BMS_Out.sldd#</globalVariables>
+    <globalVariables>#CurrentLimits#DD_CurrPowerLimCalc.sldd#</globalVariables>
+    <globalVariables>#CurrentLimits#DD_State_Machine.sldd#</globalVariables>
+    <globalVariables>#Faults#BMS_Software_DD.sldd#</globalVariables>
+    <globalVariables>#Faults#DD_BMS_Out.sldd#</globalVariables>
+    <globalVariables>#Faults#DD_State_Machine.sldd#</globalVariables>
+    <globalVariables>#Min_Max_Cells#BMS_Software_DD.sldd#</globalVariables>
+    <globalVariables>#Min_Max_Cells#DD_CurrPowerLimCalc.sldd#</globalVariables>
+    <globalVariables>#Min_Max_Cells#DD_State_Machine.sldd#</globalVariables>
+    <globalVariables>#SOC_Est#BMS_Software_DD.sldd#</globalVariables>
+    <globalVariables>#SOC_Est#DD_BMS_Out.sldd#</globalVariables>
+    <globalVariables>#Sensors#BMS_Software_DD.sldd#</globalVariables>
+    <globalVariables>#Sensors#DD_CurrPowerLimCalc.sldd#</globalVariables>
+    <globalVariables>#Sensors#DD_State_Machine.sldd#</globalVariables>
+    <grToCompInputPortsMaps type="ModelRefInfoRepo.GrCompIOPortMaps" uuid="427bcf33-c5ce-46fe-9964-10548b77d948">
+      <grAndCompPorts>0</grAndCompPorts>
+      <grAndCompPorts>0</grAndCompPorts>
+    </grToCompInputPortsMaps>
+    <grToCompInputPortsMaps type="ModelRefInfoRepo.GrCompIOPortMaps" uuid="ff756d54-01f6-4acc-872b-b608bf8b143b">
+      <grAndCompPorts>1</grAndCompPorts>
+      <grAndCompPorts>1</grAndCompPorts>
+    </grToCompInputPortsMaps>
+    <grToCompOutputPortsMaps type="ModelRefInfoRepo.GrCompIOPortMaps" uuid="fbad2844-33b8-4099-acaa-6549c3f0f829">
+      <grAndCompPorts>0</grAndCompPorts>
+      <grAndCompPorts>0</grAndCompPorts>
+      <grAndCompPorts>1</grAndCompPorts>
+      <grAndCompPorts>2</grAndCompPorts>
+      <grAndCompPorts>3</grAndCompPorts>
+      <grAndCompPorts>4</grAndCompPorts>
+      <grAndCompPorts>5</grAndCompPorts>
+      <grAndCompPorts>6</grAndCompPorts>
+      <grAndCompPorts>7</grAndCompPorts>
+      <grAndCompPorts>8</grAndCompPorts>
+      <grAndCompPorts>9</grAndCompPorts>
+      <grAndCompPorts>10</grAndCompPorts>
+      <grAndCompPorts>11</grAndCompPorts>
+    </grToCompOutputPortsMaps>
+    <grToCompOutputPortsMaps type="ModelRefInfoRepo.GrCompIOPortMaps" uuid="fdf03794-5ac3-4562-a7c1-de1949a3d2cc">
+      <grAndCompPorts>1</grAndCompPorts>
+      <grAndCompPorts>12</grAndCompPorts>
+    </grToCompOutputPortsMaps>
+    <hasBlockWithPeriodicDiscreteSampleTime>true</hasBlockWithPeriodicDiscreteSampleTime>
+    <hasBwsAccessed>true</hasBwsAccessed>
+    <hasBwsAccessedByAnyModel>true</hasBwsAccessedByAnyModel>
+    <hasConstantOutput>false</hasConstantOutput>
+    <hasInternalModelWideEventTs>true</hasInternalModelWideEventTs>
+    <hasModelWideEventTs>true</hasModelWideEventTs>
+    <hasNonVirtualParameterChangeEvents>true</hasNonVirtualParameterChangeEvents>
+    <hasStatesModifiedInOutputUpdate>true</hasStatesModifiedInOutputUpdate>
+    <inports type="ModelRefInfoRepo.InportInformation" uuid="52c9fe07-bcae-4199-8100-261305bb1d61">
+      <isNotDerivPort>true</isNotDerivPort>
+      <designMax>Inf</designMax>
+      <designMin>-Inf</designMin>
+      <indexType>2</indexType>
+      <rateInfos type="ModelRefInfoRepo.RateInfo">
+        <compiled>true</compiled>
+        <nonFcnCallPartitionName>D1</nonFcnCallPartitionName>
+        <period>.1</period>
+        <priority>40</priority>
+        <rateIdx>0</rateIdx>
+      </rateInfos>
+      <resolvedSignalObject></resolvedSignalObject>
+      <sigNameToEMVCEMap type="ModelRefInfoRepo.SigNameEMVCEInfo" uuid="09adc88f-6b4e-4f2f-b6c6-479dd9631822"/>
+    </inports>
+    <inports type="ModelRefInfoRepo.InportInformation" uuid="caefbda8-b6c0-4616-9858-4e04d988814e">
+      <isNotDerivPort>true</isNotDerivPort>
+      <designMax>Inf</designMax>
+      <designMin>-Inf</designMin>
+      <indexType>2</indexType>
+      <originalPortNumber>1</originalPortNumber>
+      <rateInfos type="ModelRefInfoRepo.RateInfo">
+        <compiled>true</compiled>
+        <nonFcnCallPartitionName>D1</nonFcnCallPartitionName>
+        <period>.1</period>
+        <priority>40</priority>
+        <rateIdx>0</rateIdx>
+      </rateInfos>
+      <resolvedSignalObject></resolvedSignalObject>
+      <sigNameToEMVCEMap type="ModelRefInfoRepo.SigNameEMVCEInfo" uuid="04588445-ea69-49e6-8046-558b2467798e"/>
+    </inports>
+    <isAperiodicRootFcnCallSystem>false</isAperiodicRootFcnCallSystem>
+    <isInlineParamsOn>true</isInlineParamsOn>
+    <isNumAllowedInstancesOne>true</isNumAllowedInstancesOne>
+    <isOrigInportVirtualBus>false</isOrigInportVirtualBus>
+    <isOrigInportVirtualBus>false</isOrigInportVirtualBus>
+    <isOrigOutportVirtualBus>true</isOrigOutportVirtualBus>
+    <isOrigOutportVirtualBus>false</isOrigOutportVirtualBus>
+    <isPreCompSingleRate>false</isPreCompSingleRate>
+    <isRefModelConstant>false</isRefModelConstant>
+    <isRootFcnCallPortGroupsEmpty>true</isRootFcnCallPortGroupsEmpty>
+    <loggingSaveFormat>2</loggingSaveFormat>
+    <maxFreqHz>-1.0</maxFreqHz>
+    <modelsWithNonBuiltinLoggedStateRapidAccel>BMS_Software</modelsWithNonBuiltinLoggedStateRapidAccel>
+    <multiThreadingBlockers>#MTCSBlocker_MRSLFunc</multiThreadingBlockers>
+    <multiThreadingBlockers>Model block is not in accelerated simulation mode #MTCSBlocker_Accel</multiThreadingBlockers>
+    <multiThreadingBlockers>Model block is not runtime thread safety compliant #MTCSBlocker_RTThrSafe</multiThreadingBlockers>
+    <multiThreadingBlockers>Multirate #MTCSBlocker_Multirate</multiThreadingBlockers>
+    <multiThreadingBlockers>RUNTIME_THREAD_SAFETY_COMPLIANCE_TRUE not declared #MTCSBlocker_RTThrSafe</multiThreadingBlockers>
+    <multiThreadingBlockers>SS_OPTION_EXCEPTION_FREE_CODE not declared #MTCSBlocker_ExcFree</multiThreadingBlockers>
+    <multiThreadingBlockers>Model block is not in accelerated simulation mode #MTCSBlocker_Accel</multiThreadingBlockers>
+    <multiThreadingBlockers>Multirate #MTCSBlocker_Multirate</multiThreadingBlockers>
+    <multiThreadingBlockers>#MTCSBlocker_MRSLFunc</multiThreadingBlockers>
+    <numDStateRecs>2</numDStateRecs>
+    <numDataInputPorts>2</numDataInputPorts>
+    <numLoggableDStateRecs>2</numLoggableDStateRecs>
+    <numLoggableJacobianDStates>1</numLoggableJacobianDStates>
+    <numModelWideEventTs>1</numModelWideEventTs>
+    <numPortlessSimulinkFunctionPortGroups>0</numPortlessSimulinkFunctionPortGroups>
+    <numRuntimeExportedRates>2</numRuntimeExportedRates>
+    <numTs>3</numTs>
+    <origInportBusType></origInportBusType>
+    <origInportBusType>Sensors</origInportBusType>
+    <origOutportBusOutputAsStruct>false</origOutportBusOutputAsStruct>
+    <origOutportBusOutputAsStruct>true</origOutportBusOutputAsStruct>
+    <origOutportBusType>BMS_Info</origOutportBusType>
+    <origOutportBusType>BMS_Cmd</origOutportBusType>
+    <outports type="ModelRefInfoRepo.OutportInformation" uuid="58d1b663-2725-4b1c-819a-72b416ad5854">
+      <okToMerge>3</okToMerge>
+      <designMax>Inf</designMax>
+      <designMin>-Inf</designMin>
+      <indexType>2</indexType>
+      <rateInfos type="ModelRefInfoRepo.RateInfo">
+        <compiled>true</compiled>
+        <nonFcnCallPartitionName>D1</nonFcnCallPartitionName>
+        <period>.1</period>
+        <priority>40</priority>
+        <rateIdx>0</rateIdx>
+      </rateInfos>
+      <resolvedSignalObject></resolvedSignalObject>
+      <sigNameToEMVCEMap type="ModelRefInfoRepo.SigNameEMVCEInfo" uuid="7c04db57-f573-4c68-9df4-d1772a7472a2"/>
+    </outports>
+    <outports type="ModelRefInfoRepo.OutportInformation" uuid="2f0ed5aa-2de8-4b9a-aabc-84e63b9fd7ae">
+      <okToMerge>3</okToMerge>
+      <designMax>Inf</designMax>
+      <designMin>-Inf</designMin>
+      <indexType>2</indexType>
+      <rateInfos type="ModelRefInfoRepo.RateInfo">
+        <compiled>true</compiled>
+        <nonFcnCallPartitionName>D1</nonFcnCallPartitionName>
+        <period>.1</period>
+        <priority>40</priority>
+        <rateIdx>0</rateIdx>
+      </rateInfos>
+      <resolvedSignalObject></resolvedSignalObject>
+      <sigNameToEMVCEMap type="ModelRefInfoRepo.SigNameEMVCEInfo" uuid="b043c87a-a630-44ac-8b08-7824802a969e"/>
+    </outports>
+    <outports type="ModelRefInfoRepo.OutportInformation" uuid="76c3b41e-0f65-4275-838e-563e924a0b2e">
+      <okToMerge>3</okToMerge>
+      <designMax>Inf</designMax>
+      <designMin>-Inf</designMin>
+      <indexType>2</indexType>
+      <rateInfos type="ModelRefInfoRepo.RateInfo">
+        <compiled>true</compiled>
+        <nonFcnCallPartitionName>D1</nonFcnCallPartitionName>
+        <period>.1</period>
+        <priority>40</priority>
+        <rateIdx>0</rateIdx>
+      </rateInfos>
+      <resolvedSignalObject></resolvedSignalObject>
+      <sigNameToEMVCEMap type="ModelRefInfoRepo.SigNameEMVCEInfo" uuid="50399f60-093f-4b35-af9b-9439d06c5245"/>
+    </outports>
+    <outports type="ModelRefInfoRepo.OutportInformation" uuid="03458549-9233-443e-a284-69ed8a0e9557">
+      <okToMerge>3</okToMerge>
+      <designMax>Inf</designMax>
+      <designMin>-Inf</designMin>
+      <indexType>2</indexType>
+      <rateInfos type="ModelRefInfoRepo.RateInfo">
+        <compiled>true</compiled>
+        <nonFcnCallPartitionName>D1</nonFcnCallPartitionName>
+        <period>.1</period>
+        <priority>40</priority>
+        <rateIdx>0</rateIdx>
+      </rateInfos>
+      <resolvedSignalObject></resolvedSignalObject>
+      <sigNameToEMVCEMap type="ModelRefInfoRepo.SigNameEMVCEInfo" uuid="589d91ba-5041-482a-8ab1-c86fb3644da7"/>
+    </outports>
+    <outports type="ModelRefInfoRepo.OutportInformation" uuid="6631aacd-76e9-4573-855c-0e3e0e9e4708">
+      <okToMerge>3</okToMerge>
+      <designMax>Inf</designMax>
+      <designMin>-Inf</designMin>
+      <indexType>2</indexType>
+      <rateInfos type="ModelRefInfoRepo.RateInfo">
+        <compiled>true</compiled>
+        <nonFcnCallPartitionName>D1</nonFcnCallPartitionName>
+        <period>.1</period>
+        <priority>40</priority>
+        <rateIdx>0</rateIdx>
+      </rateInfos>
+      <resolvedSignalObject></resolvedSignalObject>
+      <sigNameToEMVCEMap type="ModelRefInfoRepo.SigNameEMVCEInfo" uuid="3d77d06b-3abf-4885-9d85-492503abcef1"/>
+    </outports>
+    <outports type="ModelRefInfoRepo.OutportInformation" uuid="e685db67-d777-4ab7-a7b9-e94f4427ccdd">
+      <okToMerge>3</okToMerge>
+      <designMax>Inf</designMax>
+      <designMin>-Inf</designMin>
+      <indexType>2</indexType>
+      <rateInfos type="ModelRefInfoRepo.RateInfo">
+        <compiled>true</compiled>
+        <nonFcnCallPartitionName>D1</nonFcnCallPartitionName>
+        <period>.1</period>
+        <priority>40</priority>
+        <rateIdx>0</rateIdx>
+      </rateInfos>
+      <resolvedSignalObject></resolvedSignalObject>
+      <sigNameToEMVCEMap type="ModelRefInfoRepo.SigNameEMVCEInfo" uuid="8268fab1-d6a6-4c30-8a39-ceb6262094e5"/>
+    </outports>
+    <outports type="ModelRefInfoRepo.OutportInformation" uuid="dc35708a-1903-43a8-ae96-5aa1fc26bdcb">
+      <okToMerge>3</okToMerge>
+      <designMax>Inf</designMax>
+      <designMin>-Inf</designMin>
+      <indexType>2</indexType>
+      <rateInfos type="ModelRefInfoRepo.RateInfo">
+        <compiled>true</compiled>
+        <nonFcnCallPartitionName>D1</nonFcnCallPartitionName>
+        <period>.1</period>
+        <priority>40</priority>
+        <rateIdx>0</rateIdx>
+      </rateInfos>
+      <resolvedSignalObject></resolvedSignalObject>
+      <sigNameToEMVCEMap type="ModelRefInfoRepo.SigNameEMVCEInfo" uuid="a1c23dc8-a9ab-4be8-af0d-79441d7ec1e5"/>
+    </outports>
+    <outports type="ModelRefInfoRepo.OutportInformation" uuid="97a8e686-51d5-4691-98d2-80e2c2a5bcf2">
+      <okToMerge>3</okToMerge>
+      <designMax>Inf</designMax>
+      <designMin>-Inf</designMin>
+      <indexType>2</indexType>
+      <rateInfos type="ModelRefInfoRepo.RateInfo">
+        <compiled>true</compiled>
+        <nonFcnCallPartitionName>D1</nonFcnCallPartitionName>
+        <period>.1</period>
+        <priority>40</priority>
+        <rateIdx>0</rateIdx>
+      </rateInfos>
+      <resolvedSignalObject></resolvedSignalObject>
+      <sigNameToEMVCEMap type="ModelRefInfoRepo.SigNameEMVCEInfo" uuid="7cdcc5fa-e5ea-4b81-aa9a-06928c77ffff"/>
+    </outports>
+    <outports type="ModelRefInfoRepo.OutportInformation" uuid="9802fe0a-f1d8-40ff-a913-f1b3785fe95d">
+      <okToMerge>3</okToMerge>
+      <designMax>Inf</designMax>
+      <designMin>-Inf</designMin>
+      <indexType>2</indexType>
+      <rateInfos type="ModelRefInfoRepo.RateInfo">
+        <compiled>true</compiled>
+        <nonFcnCallPartitionName>D1</nonFcnCallPartitionName>
+        <period>.1</period>
+        <priority>40</priority>
+        <rateIdx>0</rateIdx>
+      </rateInfos>
+      <resolvedSignalObject></resolvedSignalObject>
+      <sigNameToEMVCEMap type="ModelRefInfoRepo.SigNameEMVCEInfo" uuid="5016291f-de34-4389-8d5a-c9d2ae03c996"/>
+    </outports>
+    <outports type="ModelRefInfoRepo.OutportInformation" uuid="8ed8ae98-d57a-46d7-80da-16e2c71ec4e9">
+      <okToMerge>3</okToMerge>
+      <designMax>Inf</designMax>
+      <designMin>-Inf</designMin>
+      <indexType>2</indexType>
+      <rateInfos type="ModelRefInfoRepo.RateInfo">
+        <compiled>true</compiled>
+        <nonFcnCallPartitionName>D1</nonFcnCallPartitionName>
+        <period>.1</period>
+        <priority>40</priority>
+        <rateIdx>0</rateIdx>
+      </rateInfos>
+      <resolvedSignalObject></resolvedSignalObject>
+      <sigNameToEMVCEMap type="ModelRefInfoRepo.SigNameEMVCEInfo" uuid="0735e21e-cc94-4c40-a653-dc8833571b1d"/>
+    </outports>
+    <outports type="ModelRefInfoRepo.OutportInformation" uuid="6ec350ce-f8b0-438f-8c13-30f8c52b3987">
+      <okToMerge>3</okToMerge>
+      <designMax>Inf</designMax>
+      <designMin>-Inf</designMin>
+      <indexType>2</indexType>
+      <rateInfos type="ModelRefInfoRepo.RateInfo">
+        <compiled>true</compiled>
+        <nonFcnCallPartitionName>D1</nonFcnCallPartitionName>
+        <period>.1</period>
+        <priority>40</priority>
+        <rateIdx>0</rateIdx>
+      </rateInfos>
+      <resolvedSignalObject></resolvedSignalObject>
+      <sigNameToEMVCEMap type="ModelRefInfoRepo.SigNameEMVCEInfo" uuid="a40ffbf2-ccde-4349-ad79-bb4acc80a2e1"/>
+    </outports>
+    <outports type="ModelRefInfoRepo.OutportInformation" uuid="ff1f5b56-8d62-4d11-85fb-c4d0f7eb65fd">
+      <okToMerge>3</okToMerge>
+      <designMax>Inf</designMax>
+      <designMin>-Inf</designMin>
+      <indexType>2</indexType>
+      <rateInfos type="ModelRefInfoRepo.RateInfo">
+        <compiled>true</compiled>
+        <nonFcnCallPartitionName>D1</nonFcnCallPartitionName>
+        <period>.1</period>
+        <priority>40</priority>
+        <rateIdx>0</rateIdx>
+      </rateInfos>
+      <resolvedSignalObject></resolvedSignalObject>
+      <sigNameToEMVCEMap type="ModelRefInfoRepo.SigNameEMVCEInfo" uuid="77460ea5-5768-4591-b3e1-82c887b82a4c"/>
+    </outports>
+    <outports type="ModelRefInfoRepo.OutportInformation" uuid="2888bb61-9d54-4640-b7f4-1d102e5afe3d">
+      <okToMerge>3</okToMerge>
+      <designMax>Inf</designMax>
+      <designMin>-Inf</designMin>
+      <indexType>2</indexType>
+      <originalPortNumber>1</originalPortNumber>
+      <rateInfos type="ModelRefInfoRepo.RateInfo">
+        <compiled>true</compiled>
+        <nonFcnCallPartitionName>D1</nonFcnCallPartitionName>
+        <period>.1</period>
+        <priority>40</priority>
+        <rateIdx>0</rateIdx>
+      </rateInfos>
+      <resolvedSignalObject></resolvedSignalObject>
+      <sigNameToEMVCEMap type="ModelRefInfoRepo.SigNameEMVCEInfo" uuid="292049f7-8761-47b6-8f4d-463b6401ef12"/>
+    </outports>
+    <preCompAllowConstTsOnPorts>false</preCompAllowConstTsOnPorts>
+    <preCompAllowPortBasedInTriggeredSS>false</preCompAllowPortBasedInTriggeredSS>
+    <runtimeNonFcnCallRateInfos type="ModelRefInfoRepo.RateInfo">
+      <compiled>true</compiled>
+      <nonFcnCallPartitionName>D1</nonFcnCallPartitionName>
+      <period>.1</period>
+      <priority>40</priority>
+      <rateIdx>0</rateIdx>
+    </runtimeNonFcnCallRateInfos>
+    <runtimeNonFcnCallRateInfos type="ModelRefInfoRepo.RateInfo">
+      <compiled>true</compiled>
+      <nonFcnCallPartitionName>D1</nonFcnCallPartitionName>
+      <period>5.0</period>
+      <priority>40</priority>
+      <rateIdx>1</rateIdx>
+    </runtimeNonFcnCallRateInfos>
+    <sampleTimeInheritanceRule>2</sampleTimeInheritanceRule>
+    <solverStatusFlags>331</solverStatusFlags>
+    <standaloneEnumInfos type="ModelRefInfoRepo.StandaloneEnumInfo" uuid="e4f542ee-89d0-4073-922a-4d29f01372e7">
+      <defaultValue>Balancing</defaultValue>
+      <enumName>SRE</enumName>
+      <labels>Balancing</labels>
+      <labels>Charging</labels>
+      <labels>Driving</labels>
+      <storageType>int32</storageType>
+      <values>0</values>
+      <values>1</values>
+      <values>2</values>
+    </standaloneEnumInfos>
+    <standaloneEnumInfos type="ModelRefInfoRepo.StandaloneEnumInfo" uuid="a29a4ad7-67fd-4a74-98d8-ca24636df54e">
+      <defaultValue>BMS_Standby</defaultValue>
+      <enumName>BMS_State_Enum</enumName>
+      <labels>BMS_Standby</labels>
+      <labels>BMS_Charging</labels>
+      <labels>BMS_Driving</labels>
+      <labels>BMS_Fault</labels>
+      <storageType>int32</storageType>
+      <values>0</values>
+      <values>1</values>
+      <values>2</values>
+      <values>3</values>
+    </standaloneEnumInfos>
+    <stateflowAutoEnumInfos type="ModelRefInfoRepo.StateflowAutoEnumInfo" uuid="bde6f0dc-72f6-468c-8cc7-668678566c10">
+      <checksum>3020429297.1990863963.4137313355.2022204937.</checksum>
+      <enumName>MonitorCellTempModeType</enumName>
+      <modelName>State_Machine</modelName>
+      <sidString>State_Machine:8:587</sidString>
+    </stateflowAutoEnumInfos>
+    <stateflowAutoEnumInfos type="ModelRefInfoRepo.StateflowAutoEnumInfo" uuid="154099ae-5bb9-4290-8f54-a7e961b7559f">
+      <checksum>524025827.3091690200.1294083730.243711814.</checksum>
+      <enumName>MonitorCellVoltageModeType</enumName>
+      <modelName>State_Machine</modelName>
+      <sidString>State_Machine:8:603</sidString>
+    </stateflowAutoEnumInfos>
+    <stateflowAutoEnumInfos type="ModelRefInfoRepo.StateflowAutoEnumInfo" uuid="9ce865f0-aa3a-4f99-b97c-939a9e65ea26">
+      <checksum>226834550.4221699760.1359948087.813875902.</checksum>
+      <enumName>MonitorCurrLimModeType</enumName>
+      <modelName>State_Machine</modelName>
+      <sidString>State_Machine:8:625</sidString>
+    </stateflowAutoEnumInfos>
+    <structTypeBusTypeMap type="ModelRefInfoRepo.StructTypeBusTypeElem" uuid="ba803c0f-921a-425a-a07d-4a690db64b34">
+      <busType>Sensors</busType>
+      <structType>struct_hWfOz2DPb3ksIiterGA9NH</structType>
+    </structTypeBusTypeMap>
+    <timingAndTaskingRegistry>&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;slexec_sto version=&quot;1.1&quot; packageUris=&quot;http://schema.mathworks.com/mf0/slexec_mm_sto/R2021b_202103041117&quot;&gt;
+  &lt;sto.Registry type=&quot;sto.Registry&quot; uuid=&quot;8becaadf-931d-441a-9f79-40dfc09a96d5&quot;&gt;
+    &lt;clocks type=&quot;sto.Timer&quot; uuid=&quot;ab010e9b-1434-444c-9089-fae21bdea281&quot;&gt;
+      &lt;computedFundamentalDiscretePeriod&gt;.1&lt;/computedFundamentalDiscretePeriod&gt;
+      &lt;resolution&gt;.1&lt;/resolution&gt;
+      &lt;clockTickConstraint&gt;PeriodicWithFixedResolution&lt;/clockTickConstraint&gt;
+      &lt;timeAdvanceMode&gt;FixedStep&lt;/timeAdvanceMode&gt;
+      &lt;clockDomain type=&quot;sto.ClockDomain&quot; uuid=&quot;1daf1bdc-c012-4294-8bbf-9714c2a2eb22&quot;&gt;
+        &lt;baseTaskID&gt;_task0&lt;/baseTaskID&gt;
+        &lt;rates type=&quot;sto.Rate&quot; uuid=&quot;aa5c71fa-7f28-4609-9dc9-37b11ed5d31a&quot;/&gt;
+        &lt;rates type=&quot;sto.Rate&quot; uuid=&quot;97e77302-eefa-45ee-960c-a170518a26a1&quot;/&gt;
+        &lt;rootTaskHierarchyElements type=&quot;sto.Task&quot; uuid=&quot;0cba3916-a4c6-4063-ac85-c9cf0e1240da&quot;&gt;
+          &lt;isExecutable&gt;true&lt;/isExecutable&gt;
+          &lt;orderIndex&gt;1&lt;/orderIndex&gt;
+          &lt;rates type=&quot;sto.Rate&quot; uuid=&quot;aa5c71fa-7f28-4609-9dc9-37b11ed5d31a&quot;&gt;
+            &lt;annotation&gt;D1&lt;/annotation&gt;
+            &lt;colorIndex&gt;2&lt;/colorIndex&gt;
+            &lt;description&gt;离散 1&lt;/description&gt;
+            &lt;eventSourceType&gt;UNSPECIFIED_EVENT_SOURCE&lt;/eventSourceType&gt;
+            &lt;registry type=&quot;sto.Registry&quot; uuid=&quot;8becaadf-931d-441a-9f79-40dfc09a96d5&quot;/&gt;
+            &lt;taskId&gt;_task0&lt;/taskId&gt;
+            &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;254155dc-5e95-4f0d-a580-d2c32c6b83b5&quot;&gt;
+              &lt;period&gt;.1&lt;/period&gt;
+              &lt;rateType&gt;ClassicPeriodicDiscrete&lt;/rateType&gt;
+            &lt;/rateSpec&gt;
+          &lt;/rates&gt;
+          &lt;rates type=&quot;sto.Rate&quot; uuid=&quot;97e77302-eefa-45ee-960c-a170518a26a1&quot;&gt;
+            &lt;annotation&gt;D2&lt;/annotation&gt;
+            &lt;colorIndex&gt;3&lt;/colorIndex&gt;
+            &lt;description&gt;离散 2&lt;/description&gt;
+            &lt;eventSourceType&gt;UNSPECIFIED_EVENT_SOURCE&lt;/eventSourceType&gt;
+            &lt;rateIDX&gt;1&lt;/rateIDX&gt;
+            &lt;registry type=&quot;sto.Registry&quot; uuid=&quot;8becaadf-931d-441a-9f79-40dfc09a96d5&quot;/&gt;
+            &lt;taskId&gt;_task0&lt;/taskId&gt;
+            &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;8649f4e4-4383-4412-ad75-af376a03b3a4&quot;&gt;
+              &lt;period&gt;5.0&lt;/period&gt;
+              &lt;rateType&gt;ClassicPeriodicDiscrete&lt;/rateType&gt;
+            &lt;/rateSpec&gt;
+          &lt;/rates&gt;
+          &lt;elementType&gt;Task&lt;/elementType&gt;
+          &lt;identifier&gt;_task0&lt;/identifier&gt;
+          &lt;priority&gt;40&lt;/priority&gt;
+        &lt;/rootTaskHierarchyElements&gt;
+      &lt;/clockDomain&gt;
+    &lt;/clocks&gt;
+    &lt;clocks type=&quot;sto.Event&quot; uuid=&quot;9da3bf94-245d-47c1-8923-fa5a25e7b6ae&quot;&gt;
+      &lt;clientId&gt;ParameterChangeEvent&lt;/clientId&gt;
+      &lt;eventType&gt;PARAMETER_CHANGE_EVENT&lt;/eventType&gt;
+      &lt;cNum&gt;1&lt;/cNum&gt;
+      &lt;clockType&gt;Event&lt;/clockType&gt;
+      &lt;identifier&gt;ParameterChangeEvent&lt;/identifier&gt;
+      &lt;specifiedTaskingMode&gt;ExplicitTasking&lt;/specifiedTaskingMode&gt;
+      &lt;timeAdvanceMode&gt;None&lt;/timeAdvanceMode&gt;
+      &lt;clockDomain type=&quot;sto.ClockDomain&quot; uuid=&quot;e680738b-f053-40f1-b6e7-bbb188e97935&quot;&gt;
+        &lt;rates type=&quot;sto.Rate&quot; uuid=&quot;cee8f641-1f7e-4066-9b0d-9c0754de0db4&quot;/&gt;
+        &lt;rootTaskHierarchyElements type=&quot;sto.Task&quot; uuid=&quot;52c7d605-c3de-458b-b402-e313b1eee8eb&quot;&gt;
+          &lt;isExecutable&gt;true&lt;/isExecutable&gt;
+          &lt;isExplicit&gt;true&lt;/isExplicit&gt;
+          &lt;rates type=&quot;sto.Rate&quot; uuid=&quot;cee8f641-1f7e-4066-9b0d-9c0754de0db4&quot;&gt;
+            &lt;annotation&gt;Inf&lt;/annotation&gt;
+            &lt;colorIndex&gt;6&lt;/colorIndex&gt;
+            &lt;description&gt;常量&lt;/description&gt;
+            &lt;eventSourceType&gt;PARAMETER_CHANGE_EVENT&lt;/eventSourceType&gt;
+            &lt;rateIDX&gt;2&lt;/rateIDX&gt;
+            &lt;registry type=&quot;sto.Registry&quot; uuid=&quot;8becaadf-931d-441a-9f79-40dfc09a96d5&quot;/&gt;
+            &lt;stringID&gt;ParameterChangeEvent&lt;/stringID&gt;
+            &lt;taskId&gt;ModelWideParameterChangeEvent&lt;/taskId&gt;
+            &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;8d92661f-ae84-443d-97fa-3363680ec4d5&quot;&gt;
+              &lt;period&gt;Inf&lt;/period&gt;
+              &lt;rateType&gt;ModelWideParameterChangeEvent&lt;/rateType&gt;
+            &lt;/rateSpec&gt;
+          &lt;/rates&gt;
+          &lt;tNum&gt;1&lt;/tNum&gt;
+          &lt;elementType&gt;Task&lt;/elementType&gt;
+          &lt;identifier&gt;ModelWideParameterChangeEvent&lt;/identifier&gt;
+          &lt;priority&gt;-1&lt;/priority&gt;
+          &lt;schedulingClockID&gt;ParameterChangeEvent&lt;/schedulingClockID&gt;
+        &lt;/rootTaskHierarchyElements&gt;
+      &lt;/clockDomain&gt;
+    &lt;/clocks&gt;
+    &lt;executionSpec&gt;Undetermined&lt;/executionSpec&gt;
+    &lt;hasUnknownEdges&gt;true&lt;/hasUnknownEdges&gt;
+    &lt;taskDependencyGraph type=&quot;sto.SerializedTaskConnectionList&quot; uuid=&quot;bfde9441-7cec-4fd2-ae19-d478a607e5e1&quot;&gt;
+      &lt;serializedConnectionProperties type=&quot;sto.SerializedConnectionProperties&quot; uuid=&quot;e22cddca-16d2-40f4-addd-b3306969ec91&quot;&gt;
+        &lt;isInternal&gt;true&lt;/isInternal&gt;
+        &lt;targetClockIdentifier&gt;ParameterChangeEvent&lt;/targetClockIdentifier&gt;
+        &lt;targetTaskIdentifier&gt;ModelWideParameterChangeEvent&lt;/targetTaskIdentifier&gt;
+      &lt;/serializedConnectionProperties&gt;
+      &lt;taskIdentifier&gt;_task0&lt;/taskIdentifier&gt;
+    &lt;/taskDependencyGraph&gt;
+    &lt;taskDependencyGraph type=&quot;sto.SerializedTaskConnectionList&quot; uuid=&quot;26722771-6f9c-4a0e-a780-064c97b70382&quot;&gt;
+      &lt;clockIdentifier&gt;ParameterChangeEvent&lt;/clockIdentifier&gt;
+      &lt;serializedConnectionProperties type=&quot;sto.SerializedConnectionProperties&quot; uuid=&quot;8c1f2d7b-e5be-4235-b486-b6de9a27f4b9&quot;&gt;
+        &lt;isInternal&gt;true&lt;/isInternal&gt;
+        &lt;targetTaskIdentifier&gt;_task0&lt;/targetTaskIdentifier&gt;
+      &lt;/serializedConnectionProperties&gt;
+      &lt;taskIdentifier&gt;ModelWideParameterChangeEvent&lt;/taskIdentifier&gt;
+    &lt;/taskDependencyGraph&gt;
+    &lt;tasks type=&quot;sto.Task&quot; uuid=&quot;0cba3916-a4c6-4063-ac85-c9cf0e1240da&quot;/&gt;
+    &lt;tasks type=&quot;sto.Task&quot; uuid=&quot;52c7d605-c3de-458b-b402-e313b1eee8eb&quot;/&gt;
+    &lt;timeAdvanceMode&gt;FixedStep&lt;/timeAdvanceMode&gt;
+  &lt;/sto.Registry&gt;
+&lt;/slexec_sto&gt;</timingAndTaskingRegistry>
+    <usePortBasedSampleTime>false</usePortBasedSampleTime>
+    <FMUBlockMap type="ModelRefInfoRepo.FMUBlockInfo" uuid="5aac58ce-2617-4078-9727-b5326bf8cabf"/>
+    <codeGenInfo type="ModelRefInfoRepo.CodeGenInformation" uuid="c4b59dc0-05a9-4372-afe8-1287d35ed8c5">
+      <DWorkTypeName>hcoepnnprex</DWorkTypeName>
+    </codeGenInfo>
+    <compiledVariantInfos type="ModelRefInfoRepo.CompiledVariantInfoMap" uuid="232bb25a-f0a8-4f7e-ac3b-8815ada1560b">
+      <entries type="ModelRefInfoRepo.CompiledVariantInfo" uuid="b7595bc0-88e8-492d-b6c9-34aef7f9985c">
+        <IsActive>true</IsActive>
+        <IsInCodegen>true</IsInCodegen>
+        <modelBlockPath>BMS_Software/BMS_Out</modelBlockPath>
+      </entries>
+      <entries type="ModelRefInfoRepo.CompiledVariantInfo" uuid="64cb3462-1b30-4dea-bc6f-31f458eaae86">
+        <IsActive>true</IsActive>
+        <IsInCodegen>true</IsInCodegen>
+        <modelBlockPath>BMS_Software/Balancing_Logic</modelBlockPath>
+      </entries>
+      <entries type="ModelRefInfoRepo.CompiledVariantInfo" uuid="891e923e-34cf-479e-bab5-2220abf7cef6">
+        <IsActive>true</IsActive>
+        <IsInCodegen>true</IsInCodegen>
+        <modelBlockPath>BMS_Software/Current_Power_Limits_Calc</modelBlockPath>
+      </entries>
+      <entries type="ModelRefInfoRepo.CompiledVariantInfo" uuid="6062c994-553c-4298-b603-b597af3674f4">
+        <IsActive>true</IsActive>
+        <IsInCodegen>true</IsInCodegen>
+        <modelBlockPath>BMS_Software/SOC_Estimation</modelBlockPath>
+      </entries>
+      <entries type="ModelRefInfoRepo.CompiledVariantInfo" uuid="e637609d-3201-4e91-85b6-a036a35e5d7a">
+        <IsActive>true</IsActive>
+        <IsInCodegen>true</IsInCodegen>
+        <modelBlockPath>BMS_Software/State_Machine</modelBlockPath>
+      </entries>
+    </compiledVariantInfos>
+    <configSettingsForConsistencyChecks type="ModelRefInfoRepo.ConfigSettingsForConsistencyChecks" uuid="52ad8a7d-8808-4a51-a9ed-e4a67161a593">
+      <consistentOutportInitialization>true</consistentOutportInitialization>
+      <fixedStepSize>.1</fixedStepSize>
+      <frameDiagnosticSetting>2</frameDiagnosticSetting>
+      <hasHybridSampleTime>true</hasHybridSampleTime>
+      <signalLoggingSaveFormat>2</signalLoggingSaveFormat>
+      <simSIMDOptimization>1</simSIMDOptimization>
+      <solverName>FixedStepDiscrete</solverName>
+      <solverType>SOLVER_TYPE_FIXEDSTEP</solverType>
+      <hardwareSettings type="ModelRefInfoRepo.HardwareSettings" uuid="df0eb1cd-f3c9-4a32-97aa-4eefa8a7b355">
+        <prodBitPerChar>8</prodBitPerChar>
+        <prodBitPerDouble>64</prodBitPerDouble>
+        <prodBitPerFloat>32</prodBitPerFloat>
+        <prodBitPerInt>32</prodBitPerInt>
+        <prodBitPerLong>64</prodBitPerLong>
+        <prodBitPerLongLong>64</prodBitPerLongLong>
+        <prodBitPerPointer>64</prodBitPerPointer>
+        <prodBitPerPtrDiffT>64</prodBitPerPtrDiffT>
+        <prodBitPerShort>16</prodBitPerShort>
+        <prodBitPerSizeT>64</prodBitPerSizeT>
+        <prodEndianess>1</prodEndianess>
+        <prodLongLongMode>true</prodLongLongMode>
+        <prodShiftRight>true</prodShiftRight>
+        <prodWordSize>64</prodWordSize>
+      </hardwareSettings>
+    </configSettingsForConsistencyChecks>
+    <controllableInputRatesMap type="ModelRefInfoRepo.VarTsUIDMap" uuid="19698b1f-ab3f-4331-92e0-7c6ccfb8ec19"/>
+    <controllableOutputRatesMap type="ModelRefInfoRepo.VarTsUIDMap" uuid="7ecbe8b9-c557-44f2-959c-21586e1329fa"/>
+    <dataPortGroup type="ModelRefInfoRepo.DataPortGroup" uuid="06197a34-5625-4c1c-82c5-13c1930becca">
+      <compDataInputPorts>0</compDataInputPorts>
+      <compDataInputPorts>1</compDataInputPorts>
+      <compDataOutputPorts>0</compDataOutputPorts>
+      <compDataOutputPorts>1</compDataOutputPorts>
+      <compDataOutputPorts>2</compDataOutputPorts>
+      <compDataOutputPorts>3</compDataOutputPorts>
+      <compDataOutputPorts>4</compDataOutputPorts>
+      <compDataOutputPorts>5</compDataOutputPorts>
+      <compDataOutputPorts>6</compDataOutputPorts>
+      <compDataOutputPorts>7</compDataOutputPorts>
+      <compDataOutputPorts>8</compDataOutputPorts>
+      <compDataOutputPorts>9</compDataOutputPorts>
+      <compDataOutputPorts>10</compDataOutputPorts>
+      <compDataOutputPorts>11</compDataOutputPorts>
+      <compDataOutputPorts>12</compDataOutputPorts>
+      <dataInputPorts>0</dataInputPorts>
+      <dataInputPorts>1</dataInputPorts>
+      <dataOutputPorts>0</dataOutputPorts>
+      <dataOutputPorts>1</dataOutputPorts>
+    </dataPortGroup>
+    <expFcnUnconnectedDataPortGroup type="ModelRefInfoRepo.DataPortGroup" uuid="f0798579-c254-4cbf-9deb-fb95825705e1"/>
+    <interfaceParameterInfo type="ModelRefInfoRepo.InterfaceParameterInfo" uuid="8c673857-43ab-419b-8ab7-4b133885afbb">
+      <globalVariables type="ModelRefInfoRepo.BuiltinParameter" uuid="bcfab84c-3094-428e-9f45-d2939a0ca53d">
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+        <isUsed>true</isUsed>
+        <numDimensions>2</numDimensions>
+        <parameterName>BattSocInit</parameterName>
+      </globalVariables>
+    </interfaceParameterInfo>
+    <messageInfo type="ModelRefInfoRepo.MessageInformation" uuid="8776bf37-c602-43d3-a6c7-2e0597118357"/>
+    <methodInfo type="ModelRefInfoRepo.MethodExistenceInfo" uuid="9301367a-05a8-489c-ba34-d7852e6d0f35">
+      <hasSystemInitializeMethod>true</hasSystemInitializeMethod>
+      <hasSystemResetMethod>true</hasSystemResetMethod>
+      <hasTerminateMethod>true</hasTerminateMethod>
+      <hasUpdateMethod>true</hasUpdateMethod>
+    </methodInfo>
+    <periodicEventPortUnsupportedBlockInfo type="ModelRefInfoRepo.PeriodicEventPortUnsupportedBlockInfo" uuid="bd0702a4-a304-46bf-a8fd-d0e2e00de0fc">
+      <deterministicRTBs>BMS_Software/RT</deterministicRTBs>
+      <deterministicRTBs>BMS_Software/RT1</deterministicRTBs>
+      <deterministicRTBs>BMS_Software/RT2</deterministicRTBs>
+      <deterministicRTBs>BMS_Software/RT3</deterministicRTBs>
+      <multiRateModelBlocks>BMS_Software/BMS_Out</multiRateModelBlocks>
+    </periodicEventPortUnsupportedBlockInfo>
+    <portGroupsRequireSameRate type="ModelRefInfoRepo.PortGroupsRequireSameRate" uuid="2612d90e-0007-4db4-8c93-238a79aa515f">
+      <DSMPortGroups type="ModelRefInfoRepo.NameToPortGroupIdxVectMap" uuid="dc8957bc-e243-4f08-ad91-703d969a3e3a"/>
+      <GlobalDSMPortGroups type="ModelRefInfoRepo.NameToPortGroupIdxVectMap" uuid="cc81a149-dacc-4920-bfc5-83a4c6b4ff81"/>
+      <mergedPortGroups type="ModelRefInfoRepo.NameToPortGroupIdxVectMap" uuid="bc7d02b1-b4e7-447b-b7e1-d0481b715757"/>
+    </portGroupsRequireSameRate>
+    <rateBasedMdlGlobalDSMRateSpec type="ModelRefInfoRepo.GlobalDSMRateSpecMap" uuid="85e58065-2580-4e9c-9e12-3c9060f2a876"/>
+    <rateSpecOfGlobalDSMAccessedByDescExpFcnMdlMap type="ModelRefInfoRepo.GlobalDSMRateSpecMap" uuid="3913fa03-38af-4b57-9837-10c4775f4162"/>
+    <rootBlockDiagramInterface type="ci.Model" uuid="05dd3faa-8c87-43b4-9d1b-bd4e45a3d4b9">
+      <p_RootComponentInterface type="ci.ComponentInterface" uuid="3c62e024-1907-40c2-b63c-ac03622403d0">
+        <p_InputPorts type="ci.SignalInterface" uuid="12e44d22-b570-4943-bb00-901871a1ea6f">
+          <p_ComputedNumericDimensions>1.0</p_ComputedNumericDimensions>
+          <p_ComputedSampleTime>.1</p_ComputedSampleTime>
+          <p_ComputedSampleTime>0.0</p_ComputedSampleTime>
+          <p_ComputedType>SRE</p_ComputedType>
+        </p_InputPorts>
+        <p_InputPorts type="ci.SignalInterface" uuid="ad39d572-88ff-4631-bd68-f59dc9644b86">
+          <p_ComputedNumericDimensions>1.0</p_ComputedNumericDimensions>
+          <p_ComputedSampleTime>.1</p_ComputedSampleTime>
+          <p_ComputedSampleTime>0.0</p_ComputedSampleTime>
+          <p_ComputedType>Sensors</p_ComputedType>
+        </p_InputPorts>
+        <p_Name>BMS_Software</p_Name>
+        <p_OutputPorts type="ci.SignalInterface" uuid="68229854-3377-4cd4-a793-e2cb4f5868fa">
+          <p_ComputedNumericDimensions>1.0</p_ComputedNumericDimensions>
+          <p_ComputedSampleTime>.1</p_ComputedSampleTime>
+          <p_ComputedSampleTime>0.0</p_ComputedSampleTime>
+          <p_ComputedType>boolean</p_ComputedType>
+        </p_OutputPorts>
+        <p_OutputPorts type="ci.SignalInterface" uuid="3fbb912e-58e0-4ea6-b4bb-0b372173901e">
+          <p_ComputedNumericDimensions>1.0</p_ComputedNumericDimensions>
+          <p_ComputedSampleTime>.1</p_ComputedSampleTime>
+          <p_ComputedSampleTime>0.0</p_ComputedSampleTime>
+          <p_ComputedType>boolean</p_ComputedType>
+        </p_OutputPorts>
+        <p_OutputPorts type="ci.SignalInterface" uuid="0c188682-03c5-471b-b771-172f0f19a63c">
+          <p_ComputedNumericDimensions>1.0</p_ComputedNumericDimensions>
+          <p_ComputedSampleTime>.1</p_ComputedSampleTime>
+          <p_ComputedSampleTime>0.0</p_ComputedSampleTime>
+          <p_ComputedType>boolean</p_ComputedType>
+        </p_OutputPorts>
+        <p_OutputPorts type="ci.SignalInterface" uuid="15b65f86-b9fb-46ae-a6df-3295fa3f738e">
+          <p_ComputedNumericDimensions>1.0</p_ComputedNumericDimensions>
+          <p_ComputedSampleTime>.1</p_ComputedSampleTime>
+          <p_ComputedSampleTime>0.0</p_ComputedSampleTime>
+          <p_ComputedType>boolean</p_ComputedType>
+        </p_OutputPorts>
+        <p_OutputPorts type="ci.SignalInterface" uuid="5cf4a58f-b747-442c-822b-b73c9b7d58e9">
+          <p_ComputedNumericDimensions>1.0</p_ComputedNumericDimensions>
+          <p_ComputedSampleTime>.1</p_ComputedSampleTime>
+          <p_ComputedSampleTime>0.0</p_ComputedSampleTime>
+          <p_ComputedType>boolean</p_ComputedType>
+        </p_OutputPorts>
+        <p_OutputPorts type="ci.SignalInterface" uuid="ee67fa10-788b-4c46-bead-145360703601">
+          <p_ComputedNumericDimensions>1.0</p_ComputedNumericDimensions>
+          <p_ComputedSampleTime>.1</p_ComputedSampleTime>
+          <p_ComputedSampleTime>0.0</p_ComputedSampleTime>
+          <p_ComputedType>boolean</p_ComputedType>
+        </p_OutputPorts>
+        <p_OutputPorts type="ci.SignalInterface" uuid="6a0a78d6-4c12-4338-8aaa-2fd64deaecb0">
+          <p_ComputedNumericDimensions>1.0</p_ComputedNumericDimensions>
+          <p_ComputedSampleTime>.1</p_ComputedSampleTime>
+          <p_ComputedSampleTime>0.0</p_ComputedSampleTime>
+          <p_ComputedType>boolean</p_ComputedType>
+        </p_OutputPorts>
+        <p_OutputPorts type="ci.SignalInterface" uuid="1c0e1e79-11cf-4b2b-a4e8-803214e21274">
+          <p_ComputedNumericDimensions>1.0</p_ComputedNumericDimensions>
+          <p_ComputedSampleTime>.1</p_ComputedSampleTime>
+          <p_ComputedSampleTime>0.0</p_ComputedSampleTime>
+          <p_ComputedType>boolean</p_ComputedType>
+        </p_OutputPorts>
+        <p_OutputPorts type="ci.SignalInterface" uuid="8a268cfd-eb07-40e3-b819-8b47e96a793e">
+          <p_ComputedNumericDimensions>1.0</p_ComputedNumericDimensions>
+          <p_ComputedSampleTime>.1</p_ComputedSampleTime>
+          <p_ComputedSampleTime>0.0</p_ComputedSampleTime>
+          <p_ComputedType>BMS_State_Enum</p_ComputedType>
+        </p_OutputPorts>
+        <p_OutputPorts type="ci.SignalInterface" uuid="a9403da8-07ff-4bfc-b45e-58100bc2f080">
+          <p_ComputedNumericDimensions>1.0</p_ComputedNumericDimensions>
+          <p_ComputedSampleTime>.1</p_ComputedSampleTime>
+          <p_ComputedSampleTime>0.0</p_ComputedSampleTime>
+          <p_ComputedType>single</p_ComputedType>
+        </p_OutputPorts>
+        <p_OutputPorts type="ci.SignalInterface" uuid="fd0875a5-38b4-4799-a4e4-0cf31c547f96">
+          <p_ComputedNumericDimensions>1.0</p_ComputedNumericDimensions>
+          <p_ComputedSampleTime>.1</p_ComputedSampleTime>
+          <p_ComputedSampleTime>0.0</p_ComputedSampleTime>
+          <p_ComputedType>single</p_ComputedType>
+        </p_OutputPorts>
+        <p_OutputPorts type="ci.SignalInterface" uuid="4818c5f9-74cb-4e8a-83be-5970bee0076f">
+          <p_ComputedNumericDimensions>1.0</p_ComputedNumericDimensions>
+          <p_ComputedSampleTime>.1</p_ComputedSampleTime>
+          <p_ComputedSampleTime>0.0</p_ComputedSampleTime>
+          <p_ComputedType>single</p_ComputedType>
+        </p_OutputPorts>
+        <p_OutputPorts type="ci.SignalInterface" uuid="852301b3-8db5-4d50-8953-898614374842">
+          <p_ComputedNumericDimensions>1.0</p_ComputedNumericDimensions>
+          <p_ComputedSampleTime>.1</p_ComputedSampleTime>
+          <p_ComputedSampleTime>0.0</p_ComputedSampleTime>
+          <p_ComputedType>BMS_Cmd</p_ComputedType>
+        </p_OutputPorts>
+        <p_Type>ROOT</p_Type>
+      </p_RootComponentInterface>
+    </rootBlockDiagramInterface>
+    <simulinkFunctions type="ModelRefInfoRepo.SimulinkFunctions" uuid="614f6b63-0061-4a8a-9e77-afac5fbef1ff">
+      <compFunctions type="ModelRefInfoRepo.CompFunction" uuid="6679a74e-72bd-452d-96f9-00f8a1f00c41">
+        <CGFunctionName>batteryMeasurementFcn</CGFunctionName>
+        <CGIsCalled>true</CGIsCalled>
+        <callerBlocks>BMS_Software/SOC_Estimation</callerBlocks>
+        <compDiscreteRates type="ModelRefInfoRepo.RateSpec" uuid="9317dbe1-50a1-4a41-adcf-e24eb7a7ce94">
+          <period>.1</period>
+        </compDiscreteRates>
+        <compTIDs>0</compTIDs>
+        <functionBlock>BMS_Software/SOC_Estimation</functionBlock>
+        <functionName>batteryMeasurementFcn</functionName>
+        <irtBlockErrorReasonSet type="ModelRefInfoRepo.IRTBlockErrorReasonSet" uuid="90201a23-5816-4f44-a43a-638ac356b9d2">
+          <IRTErrorReason>12</IRTErrorReason>
+          <blockHandle>681.002685546875</blockHandle>
+        </irtBlockErrorReasonSet>
+        <isDefined>true</isDefined>
+        <refBlockPaths>SOC_Estimation/UKF_EKF_1TC/EKF/Correct1/Correct</refBlockPaths>
+        <refBlockPaths>SOC_Estimation/UKF_EKF_1TC/EKF/Correct1/RegisterSimulinkFcn</refBlockPaths>
+        <refBlockPaths>SOC_Estimation/UKF_EKF_1TC/UKF/Correct1/Correct</refBlockPaths>
+        <refBlockPaths>SOC_Estimation/UKF_EKF_1TC/UKF/Correct1/RegisterSimulinkFcn</refBlockPaths>
+        <sourceModel>SOC_Estimation</sourceModel>
+        <variantFunctionBlockPath>SOC_Estimation/Measurement Function</variantFunctionBlockPath>
+        <variantFunctionNetEMVCE type="ModelRefInfoRepo.VariantFunctionNetEMVCE" uuid="edf17f82-8a2c-4e66-a9d2-e614965d7222">
+          <EMVCE>({true}_0)</EMVCE>
+        </variantFunctionNetEMVCE>
+        <visibility>Global</visibility>
+        <fcnArgs type="ModelRefInfoRepo.CompFunctionArgs" uuid="3b13823c-8036-4166-821c-1dcbb2c6df09">
+          <argIndexMap type="ModelRefInfoRepo.ArgIndexMap" uuid="00023dec-c58a-47d3-a097-83e1a1d2a500">
+            <index>I0</index>
+          </argIndexMap>
+          <argIndexMap type="ModelRefInfoRepo.ArgIndexMap" uuid="f353f9ec-77ab-4ee2-a586-663ab5bad619">
+            <index>O0</index>
+            <position>1</position>
+          </argIndexMap>
+          <argNameMap type="ModelRefInfoRepo.ArgNameMap" uuid="e3c9e460-44b8-4f0f-bf73-35384895bdae">
+            <name>x</name>
+          </argNameMap>
+          <argNameMap type="ModelRefInfoRepo.ArgNameMap" uuid="77740a1b-66e2-42ac-b5e4-024fb5ec49c9">
+            <name>y</name>
+            <position>1</position>
+          </argNameMap>
+          <inArgs type="ModelRefInfoRepo.CompFunctionArgInfo" uuid="78a0768b-4399-480e-adb1-eb0839591cf5">
+            <dims>2</dims>
+            <dataType type="ModelRefInfoRepo.CompDataType" uuid="b3e51f14-eea2-4bc5-a159-1e9c82438a46">
+              <dataClass>Numeric</dataClass>
+              <dataTypeName>numerictype(&apos;single&apos;)</dataTypeName>
+            </dataType>
+          </inArgs>
+          <outArgs type="ModelRefInfoRepo.CompFunctionArgInfo" uuid="dadb835b-950d-486b-a76b-61de6394a4f7">
+            <dims>1</dims>
+            <dataType type="ModelRefInfoRepo.CompDataType" uuid="497d659e-f1e4-4a0b-8307-f186f13160b6">
+              <dataClass>Numeric</dataClass>
+              <dataTypeName>numerictype(&apos;single&apos;)</dataTypeName>
+            </dataType>
+          </outArgs>
+          <returnArgIdx>-1</returnArgIdx>
+        </fcnArgs>
+      </compFunctions>
+      <compFunctions type="ModelRefInfoRepo.CompFunction" uuid="a574e677-f22f-46b7-99d6-472c261f2967">
+        <CGFunctionName>batteryStateFcn</CGFunctionName>
+        <CGIsCalled>true</CGIsCalled>
+        <callerBlocks>BMS_Software/SOC_Estimation</callerBlocks>
+        <compDiscreteRates type="ModelRefInfoRepo.RateSpec" uuid="3a2217d6-722e-4887-9426-f7ec1283229d">
+          <period>.1</period>
+        </compDiscreteRates>
+        <compTIDs>0</compTIDs>
+        <functionBlock>BMS_Software/SOC_Estimation</functionBlock>
+        <functionName>batteryStateFcn</functionName>
+        <irtBlockErrorReasonSet type="ModelRefInfoRepo.IRTBlockErrorReasonSet" uuid="2e837f5a-09bf-44e1-bb60-6eef9b171a0e">
+          <IRTErrorReason>12</IRTErrorReason>
+          <blockHandle>681.002685546875</blockHandle>
+        </irtBlockErrorReasonSet>
+        <isDefined>true</isDefined>
+        <refBlockPaths>SOC_Estimation/UKF_EKF_1TC/EKF/Predict/Predict</refBlockPaths>
+        <refBlockPaths>SOC_Estimation/UKF_EKF_1TC/EKF/Predict/RegisterSimulinkFcn</refBlockPaths>
+        <refBlockPaths>SOC_Estimation/UKF_EKF_1TC/UKF/Predict/Predict</refBlockPaths>
+        <refBlockPaths>SOC_Estimation/UKF_EKF_1TC/UKF/Predict/RegisterSimulinkFcn</refBlockPaths>
+        <sourceModel>SOC_Estimation</sourceModel>
+        <variantFunctionBlockPath>SOC_Estimation/State Transition Function</variantFunctionBlockPath>
+        <variantFunctionNetEMVCE type="ModelRefInfoRepo.VariantFunctionNetEMVCE" uuid="4b6b194d-6ba5-48b1-bf62-bf02f441aa2a">
+          <EMVCE>({true}_0)</EMVCE>
+        </variantFunctionNetEMVCE>
+        <visibility>Global</visibility>
+        <fcnArgs type="ModelRefInfoRepo.CompFunctionArgs" uuid="189b4727-efea-4de4-ad8a-b0546cd75cf2">
+          <argIndexMap type="ModelRefInfoRepo.ArgIndexMap" uuid="15d521c7-57a1-4a64-ad76-ce7dbe7b4066">
+            <index>I0</index>
+          </argIndexMap>
+          <argIndexMap type="ModelRefInfoRepo.ArgIndexMap" uuid="61d65f64-db87-4d7e-a97c-d9a84d6fc8fe">
+            <index>O0</index>
+            <position>1</position>
+          </argIndexMap>
+          <argNameMap type="ModelRefInfoRepo.ArgNameMap" uuid="0ee25bd1-7adb-40b9-bf51-3942c403ea3d">
+            <name>x</name>
+          </argNameMap>
+          <argNameMap type="ModelRefInfoRepo.ArgNameMap" uuid="9f5d60d8-270d-4f9e-94c6-3866db2d96e6">
+            <name>xNext</name>
+            <position>1</position>
+          </argNameMap>
+          <inArgs type="ModelRefInfoRepo.CompFunctionArgInfo" uuid="eb4a876f-4404-46f3-8f30-724ab33a9151">
+            <dims>2</dims>
+            <dataType type="ModelRefInfoRepo.CompDataType" uuid="3a3158c1-5d48-46d4-8d28-c24342bb2153">
+              <dataClass>Numeric</dataClass>
+              <dataTypeName>numerictype(&apos;single&apos;)</dataTypeName>
+            </dataType>
+          </inArgs>
+          <outArgs type="ModelRefInfoRepo.CompFunctionArgInfo" uuid="d760b196-9e5d-4410-89b2-18838728fd51">
+            <dims>2</dims>
+            <dataType type="ModelRefInfoRepo.CompDataType" uuid="3cb7f441-0cf6-4855-a029-af39136a13f4">
+              <dataClass>Numeric</dataClass>
+              <dataTypeName>numerictype(&apos;single&apos;)</dataTypeName>
+            </dataType>
+          </outArgs>
+          <returnArgIdx>-1</returnArgIdx>
+        </fcnArgs>
+      </compFunctions>
+      <compSimulinkFunctionCatalog></compSimulinkFunctionCatalog>
+    </simulinkFunctions>
+    <stateWriterToOwnerMap type="ModelRefInfoRepo.StateWriterInfo" uuid="39eed722-4fbc-4724-a495-a5126bc14619"/>
+    <stoClientDataRegistry type="sto.ClientDataRegistry" uuid="b41efbbe-b3fa-4edc-b3d3-ceabff667da2">
+      <dataSets type="sto.ClientClockNamedDataSet" uuid="c17a2e43-d885-44ac-b51c-8f1dc4fea04d">
+        <tag>sltpEvents</tag>
+      </dataSets>
+      <dataSets type="sto.ClientTaskHierarchyElementNamedDataSet" uuid="1aa18864-3464-4529-9342-64efd74ba239">
+        <tag>sltpTaskGroups</tag>
+      </dataSets>
+      <dataSets type="sto.ClientTaskHierarchyElementNamedDataSet" uuid="540d15fc-9398-46a2-9c87-e2b94b28a8d8">
+        <dSet type="ModelRefInfoRepo.SltpTaskData" uuid="d20811a3-3858-4752-a9a3-21b913f24d4a"/>
+        <tSet type="ModelRefInfoRepo.SltpTaskData" uuid="d20811a3-3858-4752-a9a3-21b913f24d4a">
+          <dataName>D1</dataName>
+          <linkedSet type="sto.ClientTaskHierarchyElementNamedDataSet" uuid="540d15fc-9398-46a2-9c87-e2b94b28a8d8"/>
+          <id type="sto.TaskHierarchyElementId">
+            <id>_task0</id>
+          </id>
+        </tSet>
+        <tag>sltpTasks</tag>
+      </dataSets>
+    </stoClientDataRegistry>
+    <varTsUIDMap type="ModelRefInfoRepo.VarTsUIDMap" uuid="f068c1fa-3c2a-454c-9aaf-abdbd2e1a952"/>
+  </ModelRefInfoRepo.ModelRefInfoRoot>
+</MF0>

@@ -1,0 +1,32 @@
+CC     = "D:\Program Files\MATLAB\R2021b\sys\lcc64\lcc64\bin\lcc64.exe"
+LD     = "D:\Program Files\MATLAB\R2021b\sys\lcc64\lcc64\bin\lcclnk64.exe"
+LIBCMD = "D:\Program Files\MATLAB\R2021b\sys\lcc64\lcc64\bin\lcclib64.exe"
+CFLAGS = -dll -noregistrylookup  -c -Zp8 -DLCC_WIN64 -DMATLAB_MEX_FILE -nodeclspec 
+LDFLAGS = -s -dll -L"D:\Program Files\MATLAB\R2021b\sys\lcc64\lcc64\lib64" -entry LibMain -map sfun.map 
+LIBFLAGS = 
+
+OBJECTS = \
+	"Balancing_Logic_sfun.obj"\
+	"c1_Balancing_Logic.obj"\
+	"Balancing_Logic_sfun_registry.obj"\
+	"half_type.obj"\
+	"lccstub.obj"\
+	"c_mexapi_version.obj"\
+
+INCLUDE_PATH= -I"D:\Program Files\MATLAB\R2021b\extern\include"  -I"D:\Program Files\MATLAB\R2021b\simulink\include"  -I"D:\Program Files\MATLAB\R2021b\simulink\include\sf_runtime"  -I"D:\Program Files\MATLAB\R2021b\stateflow\c\mex\include"  -I"D:\Program Files\MATLAB\R2021b\rtw\c\src"  -I"C:\Users\Administrator\MATLAB\Projects\examples\HEVMM5\HEVMM\Work\slprj\_sfprj\Balancing_Logic\_self\sfun\src"  -I"C:\Users\administrator\MATLAB\Projects\examples\HEVMM5\HEVMM\Work\slprj\_sfprj\balancing_logic\_self\sfun\src"  -I"C:\Users\administrator\MATLAB\Projects\examples\HEVMM5\HEVMM\Work"  -I"C:\Users\administrator\MATLAB\Projects\examples\HEVMM5\HEVMM\controller\BMS"  -I"D:\Program Files\MATLAB\R2021b\sys\lcc64\lcc64\include64" 
+ 
+
+Balancing_Logic_sfun.mexw64 : $(MAKEFILE) $(OBJECTS)
+	$(LD) $(LDFLAGS) -o Balancing_Logic_sfun.mexw64 @Balancing_Logic_sfun.lmko
+Balancing_Logic_sfun.obj :	"C:\Users\Administrator\MATLAB\Projects\examples\HEVMM5\HEVMM\Work\slprj\_sfprj\Balancing_Logic\_self\sfun\src\Balancing_Logic_sfun.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "C:\Users\Administrator\MATLAB\Projects\examples\HEVMM5\HEVMM\Work\slprj\_sfprj\Balancing_Logic\_self\sfun\src\Balancing_Logic_sfun.c"
+c1_Balancing_Logic.obj :	"C:\Users\Administrator\MATLAB\Projects\examples\HEVMM5\HEVMM\Work\slprj\_sfprj\Balancing_Logic\_self\sfun\src\c1_Balancing_Logic.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "C:\Users\Administrator\MATLAB\Projects\examples\HEVMM5\HEVMM\Work\slprj\_sfprj\Balancing_Logic\_self\sfun\src\c1_Balancing_Logic.c"
+Balancing_Logic_sfun_registry.obj :	"C:\Users\Administrator\MATLAB\Projects\examples\HEVMM5\HEVMM\Work\slprj\_sfprj\Balancing_Logic\_self\sfun\src\Balancing_Logic_sfun_registry.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "C:\Users\Administrator\MATLAB\Projects\examples\HEVMM5\HEVMM\Work\slprj\_sfprj\Balancing_Logic\_self\sfun\src\Balancing_Logic_sfun_registry.c"
+half_type.obj :	"C:\Users\Administrator\MATLAB\Projects\examples\HEVMM5\HEVMM\Work\slprj\_sfprj\Balancing_Logic\_self\sfun\src\half_type.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "C:\Users\Administrator\MATLAB\Projects\examples\HEVMM5\HEVMM\Work\slprj\_sfprj\Balancing_Logic\_self\sfun\src\half_type.c"
+lccstub.obj :	"D:\Program Files\MATLAB\R2021b\sys\lcc64\lcc64\mex\lccstub.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "D:\Program Files\MATLAB\R2021b\sys\lcc64\lcc64\mex\lccstub.c"
+c_mexapi_version.obj :	"D:\Program Files\MATLAB\R2021b\extern\version\c_mexapi_version.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "D:\Program Files\MATLAB\R2021b\extern\version\c_mexapi_version.c"
